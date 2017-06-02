@@ -73,7 +73,7 @@ get_number_of_target_words |       PASS |             Good Job
 ```  
 
 ## Next Work
-이번 랩은 어렵지 않아서 많은 시간을 들이지 않고 금방 푸셨을겁니다. 그렇지만 아직 2개의 Lab이 남아있으니 조금만 더 힙을 냅시다.
+이번 랩은 어렵지 않아서 많은 시간을 들이지 않고 금방 푸셨을겁니다. 보너스로 2개의 Lab이 남아있습니다. 그리고 당신 (비기너) 파이썬 마스터가 될 것입니다.
 
 > **Human knowledge belongs to the world** - from movie 'Password' -
 
