@@ -148,8 +148,7 @@ FILE | SAMSUNG, 2014-12, Open, FILE, test.csv | 조건의 맞는 모든 데이�
 실제로 작성된 프로그램의 실행화면은 다음과 같다.
 
 
-![Stock Data Crawler 실행화면 1](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/lab_12_stock_data_crawler/result_screenshot_1.png)
-![Stock Data Crawler 실행화면 2](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/lab_12_stock_data_crawler/result_screenshot_2.png)
+![Stock Data Crawler 실행화면](https://storage.googleapis.com/teamlab-service/mooc_pic/stock_data_result_screenshot.png)
 
 
 ## 숙제 제출하기
