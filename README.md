@@ -1,13 +1,9 @@
 K-MOOC: 데이터 과학을 위한 파이썬 입문
 =========================
 
-본 강의는 교육부의 "K-MOOC 강좌개발지원 사업"의 일환으로 가천대학교 ACE 사업단에
-의해 제작되었습니다. 본 강의는 가천대학교 ACE 사업단의 데이터 과학 시리즈 MOOC의
-일환으로 제작됩니다. 본 과정은 아래와 같이 구성됩니다.
+본 강의는 가천대학교 ACE 사업단의 데이터 과학 시리즈 MOOC의 일환으로 제작됩니다. 본 과정은 아래와 같이 구성됩니다.
 - Introduction to Python Programming - 본과정
 - [Operation Research with Python Programming](https://github.com/TeamLab/Gachon_CS50_OR_KMOOC)
-- [Introduction to Data Science](https://github.com/TeamLab/data_school_at_gachon)
-- Large-Scale Data Analysis on Cloud
 
 강의 영상과 자료들은 순차적으로 업데이트 될 예정입니다.
 
@@ -25,9 +21,9 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 * [장시온](https://github.com/janguck) (wayterren@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
 * [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 * [김성철](https://github.com/SeongCheol-Kim) (sckim219@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
-* [김지희](https://github.com/kjihee) (aszx1220@gmail.com, 학부생)
-* [김윤진](https://github.com/KimyoonJIn)(soosg0822@naver.com, 학부생)
-* [장예훈](https://github.com/YeHoonJang)(jangyh0420@gmail.com, 학부생)
+* [김지희](https://github.com/kjihee) (aszx1220@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
+* [김윤진](https://github.com/KimyoonJIn)(soosg0822@naver.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
+* [장예훈](https://github.com/YeHoonJang)(jangyh0420@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 
 ## 강의 구성
 ### 1주차: 프로그래밍과 파이썬
@@ -55,7 +51,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Console 다루기 - [강의영상](https://www.youtube.com/watch?v=MJvx5m6xlBo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=13), [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
 - Lab: 화씨 변환기 (Fahrenheit Converter) - [강의영상](https://www.youtube.com/watch?v=1izwqD7SSHk&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=14), [강의자료](https://doc.co/mjke6x/EFk5T6)
 - List Data Type - [강의영상](https://www.youtube.com/watch?v=lYxlnxKYsLI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=15), [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
-- Code Assignment: 학점 계산기 (exam_grader) - 강의영상, [강의자료](http://theteamlab.io/course/1/class/12/)
+- Code Assignment: 학점 계산기 (exam_grader) - [강의영상](https://www.youtube.com/watch?v=TIrSDV7JZ2E&t=231s&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](http://theteamlab.io/course/1/class/12/)
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
 - Condition - [강의영상](https://www.youtube.com/watch?v=aE7grvgYGc4&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=16), [강의자료](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
@@ -64,17 +60,18 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: 구구단 계산기 - [강의영상](https://www.youtube.com/watch?v=MC-QHhxOK9U&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [강의자료](https://doc.co/j8LVwB/EFk5T6)
 - Lab: Condition and Loop - [강의영상#1](https://www.youtube.com/watch?v=nPWy_nWnYyg&index=20&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의영상#2](https://www.youtube.com/watch?v=tuKcI9cu1lo&index=21&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의영상#3](https://www.youtube.com/watch?v=78bnSeQ9SKA&index=22&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/TXJguB/EFk5T6)
 - How to debug code - [강의영상](https://www.youtube.com/watch?v=LR8XY2HoH28&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
+- Code Assignment: 화씨 변환기 (fahrenheit_converter) - [강의영상](https://www.youtube.com/watch?v=5niJ5yiAlSQ&t=201s&index=32&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/READMD.md)
 
 ### 5주차: 함수와 파이썬 코드 작성연습
 - Function Concept I - [강의영상](https://www.youtube.com/watch?v=8ftOYKWcul0&index=24&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
 - Function Concept II - [강의영상](https://www.youtube.com/watch?v=JwoQRp3QLVQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=25), [강의자료](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
 - 코딩 컨벤션과 함수 작성법 - [강의영상](https://www.youtube.com/watch?v=K5m-QxQB4og&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=26), [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
-- Code Assignment:
+- Code Assignment: list, control, loop 연습 (gowithflow) - [강의영상](https://www.youtube.com/watch?v=_p4UXbKtYcM&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_5/READMD.md)
 
 ### 6주차: 문자열 다루기 (String)
 - 문자열 다루기 (String) - [강의영상](https://www.youtube.com/watch?v=6-VUeVlorWU&index=27&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/Y4h7dX/EFk5T6)
 - Lab: Yesterday Letter Counter - [강의영상](https://www.youtube.com/watch?v=t2ESp11CRmI&index=28&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/xtswPq/EFk5T6)
-- Assignment: Baseball Game - 설명영상
+- Code Assignment: - [강의영상](https://www.youtube.com/watch?v=GNb-zZY67EE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39), [강의자료](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_6/READMD.md)
 
 ### 7주차: 자료 구조 (Data Structure)
 - 자료구조 개요 (Data Structure) - [강의영상](https://www.youtube.com/watch?v=G0RamGs1jqQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=29), [강의자료](https://doc.co/zfqdQX/EFk5T6)
@@ -82,14 +79,14 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Tuple & Set (Data Structure) - [강의영상](https://www.youtube.com/watch?v=7u7rhQ1tQDY&index=31&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
 - 사전 (Dictionary) - [강의영상](https://www.youtube.com/watch?v=HqFtXMZSGSI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=32), [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
 - Lab: Command Counter - [강의영상](https://www.youtube.com/watch?v=gq09kwm5OMc&index=33&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/v5vBq6/EFk5T6)
+- Code Assignment: - [강의영상](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_7/READMD.md), [강의자료](https://www.youtube.com/watch?v=45CxKN0O6UI&index=45&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
 
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
 - Pythonic Code Overview - [강의영상](https://www.youtube.com/watch?v=uIcxHkapM7c&index=34&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=4s), [강의자료](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
 - Split & Join - [강의영상](https://www.youtube.com/watch?v=RnzoIgPmdng&index=35&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=14s), [강의자료](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
 - List Comprehension - [강의영상](https://www.youtube.com/watch?v=AWAISEXNPPI&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=73s), [강의자료](https://docs.com/choi-sungchul/7934/week-8-3-list-comprehension?c=EFk5T6)
 - Enumerate & Zip - [강의영상](https://www.youtube.com/watch?v=xXaMXh1k5FY&index=37&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=610s), [강의자료](https://docs.com/choi-sungchul/5388/week-8-4-enumerate-zip?c=EFk5T6)
-- Assignment: Morse Code - 설명영상
-- Midterm Problem Set
+- Code Assignment: - Morse Code (morsecode) [강의자료](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_8/READMD.md)
 
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
 - Objective-Oriented Programming Overview - [강의영상](https://www.youtube.com/watch?v=fi8TGRfDXU0&t=2s&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=49), [강의자료](https://doc.co/yXcRGm/EFk5T6)
@@ -106,19 +103,20 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 ### 11주차: 예외 처리 (Exception Handling)
 - Overview - [강의영상](https://www.youtube.com/watch?v=Q17PEpSyv_s&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=24s&index=47), [강의자료](https://doc.co/hyRaci/EFk5T6)
 - Exception Handling - [강의영상](https://www.youtube.com/watch?v=dTj3FxYt7ic&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=83s&index=48), [강의자료](https://doc.co/oyGK7M/EFk5T6)
-- Lab: - 강의영상, 강의자료
 
 ### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
 - File Handling Overview - [강의영상](https://www.youtube.com/watch?v=0qV-5-X7YS0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=15s&index=49), [강의자료](https://doc.co/5XWkVi/EFk5T6)
 - File Handling - [강의영상](https://www.youtube.com/watch?v=kJnew-Dl8K0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=228s&index=50), [강의자료](https://doc.co/hYt3mx/EFk5T6)
 - Comma Separate Values  - [강의영상](https://www.youtube.com/watch?v=2c8FzbCPu3Y&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=58s&index=51), [강의자료](https://doc.co/1PDdBj/EFk5T6)
-- Lab: CSV with Pandas - 강의영상, 강의자료
+- Code Assignment: - [강의자료](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_9/READMD.md)
 
 ### 13주차: Web Scraping
 - Web 이해하기 - [강의영상](https://www.youtube.com/watch?v=l-2wn6jrezc&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=52), [강의자료](https://doc.co/WuDBwm/EFk5T6)
 - HTML 데이터 다루기 - [강의영상](https://www.youtube.com/watch?v=B0kmDCSJqZU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=15s&index=53), [강의자료](https://doc.co/5a8MVr/EFk5T6)
 - 정규 표현식: Regular Expression - [강의영상](https://www.youtube.com/watch?v=Qg8ayprxoFQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=54), [강의자료](https://doc.co/5DcmMo/EFk5T6)
 - Lab: RegEx - [강의영상](https://www.youtube.com/watch?v=x1RGQGlYaO8&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=55), [강의자료](https://doc.co/xzfPXz/eRCeqh)
+- Code Assignment: - [강의자료](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_10/READMD.md)
+
 
 ### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
 - XML 이해하기 - [강의영상](https://www.youtube.com/watch?v=nSuCKVCS0sY&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=56), [강의자료](https://doc.co/XqDhAr/EFk5T6)
@@ -128,7 +126,6 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 15차: What is NEXT?
 - Wrap Up, Pyhton!- [강의영상](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [강의자료](https://doc.co/UPeD8r/EFk5T6)
-- Final Term Problem Set
 
 ## 참고자료
 - [점프 투 파이썬](https://wikidocs.net/book/1), 박응용 지음 , 2014
