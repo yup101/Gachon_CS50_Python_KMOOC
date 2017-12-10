@@ -9,12 +9,11 @@ def get_stock_data(url_address):
     아래 코드를 활용하면 Google 서버에서 데이터를 String Type으로 다운로드 받을 수 있음
 
         >>> import urllib.request
-        >>> url_address = 'http://www.google.com/finance/historical?q=KRX:005930&startdate=2017-01-30&enddate=2017-04-30&output=csv'
+        >>> url_address = 'http://finance.google.com/finance/historical?q=KRX:005930&startdate=2017-01-01&enddate=2017-12-30&output=csv'
         >>> r = urllib.request.urlopen(url_address)
         >>> stock_data_string = r.read().decode("utf8")    # String Type으로 다운로드 받은 데이터
         >>> stock_data_string[:50]
-    '\ufeffDate,Open,High,Low,Close,Volume\n28-Apr-17,2214.36'
-    > 처음 나오는 "\ufeff" 글자는 인코딩으로 인해 발생하는 문제로 신경쓰지 않아도 됨
+    'Date,Open,High,Low,Close,Volume\n28-Apr-17,2214.36'
 
     다운된 데이터는 String Type으로 각 줄은 "\n"으로 구분되며, 필드 데이터들은 ","으로 구분됨
 
@@ -27,7 +26,7 @@ def get_stock_data(url_address):
 
     Examples:
         >>> import stock_data_crawler as sdc
-        >>> url = 'http://www.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
+        >>> url = 'http://finance.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
         >>> sdc.get_stock_data(url)[:3]
         [['\ufeffDate', 'Open', 'High', 'Low', 'Close', 'Volume'], ['30-Dec-15', '1260000.00', '1272000.00', '1254000.00', '1260000.00', '203349'],
         ['29-Dec-15', '1265000.00', '1266000.00', '1241000.00', '1254000.00', '231802']]
@@ -35,7 +34,6 @@ def get_stock_data(url_address):
     r = urllib.request.urlopen(url_address)
     stock_data_string = r.read().decode("utf8").strip() # 반드시 Strip을 추가할 것
     # ===Modify codes below=============
-
 
 
     # ==================================
@@ -53,14 +51,13 @@ def get_header_data(stock_data):
 
     Examples:
         >>> import stock_data_crawler as sdc
-        >>> url = 'http://www.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
+        >>> url = 'http://finance.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
         >>> stock_data = sdc.get_stock_data(url)
         >>> sdc.get_header_data(stock_data)
         ['\ufeffDate', 'Open', 'High', 'Low', 'Close', 'Volume']
     """
-    result = None
     # ===Modify codes below=============
-
+    result = None
 
     # ==================================
     return result
@@ -89,7 +86,7 @@ def get_attribute_data(stock_data, attribue, year=None, month=None):
 
     Examples:
         >>> import stock_data_crawler as sdc
-        >>> url = 'http://www.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
+        >>> url = 'http://finance.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
         >>> stock_data = sdc.get_stock_data(url)
         >>> header = sdc.get_header_data(stock_data)
         >>> sdc.get_attribute_data(stock_data, "High", 2014)[:2]
@@ -99,11 +96,13 @@ def get_attribute_data(stock_data, attribue, year=None, month=None):
     """
 
     monthletter_dict = {
-        "Dec" : 12, "Nov": 11, "Oct": 10, "Sep": 9, "Aug": 8,
-        "Jul": 7, "Jun": 6, "May": 5, "Apr": 4, "Mar": 3, "Feb": 2, "Jan": 1
-    }
-    result = None
+        "Dec": 12, "Nov": 11, "Oct": 10, "Sep": 9, "Aug": 8,
+        "Jul": 7, "Jun": 6, "May": 5, "Apr": 4, "Mar": 3, "Feb": 2, "Jan": 1}
     # ===Modify codes below=============
+    result = None
+
+
+
 
     # ==================================
     return result
@@ -130,7 +129,7 @@ def get_average_value_of_attribute(stock_data, attribue, year=None, month=None):
 
     Examples:
         >>> import stock_data_crawler as sdc
-        >>> url = 'http://www.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
+        >>> url = 'http://finance.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
         >>> stock_data = sdc.get_stock_data(url)
         >>> header = sdc.get_header_data(stock_data)
         >>> sdc.get_average_value_of_attribute(stock_data, "Open", 2013, 12)
@@ -141,9 +140,8 @@ def get_average_value_of_attribute(stock_data, attribue, year=None, month=None):
         1298047.619047619
     """
 
-    result = None
     # ===Modify codes below=============
-
+    result = None
 
     # ==================================
     return result
@@ -157,7 +155,7 @@ def write_csv_file_by_result(stock_data, filename):
 
     Examples:
         >>> import stock_data_crawler as sdc
-        >>> url = 'http://www.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
+        >>> url = 'http://finance.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
         >>> stock_data = sdc.get_stock_data(url)
         >>> high_data = sdc.get_attribute_data(stock_data, "High", 2014, 12)
         >>> sdc.write_csv_file_by_result(stock_data,"example.csv")
@@ -167,6 +165,9 @@ def write_csv_file_by_result(stock_data, filename):
         >>> f.close()
     """
     # ===Modify codes below=============
+
+
+
 
 
     # ==================================
@@ -203,8 +204,9 @@ def separate_user_query(user_input):
         >>> sdc.separate_user_query("SAMSUNG, 2014-13, High, MEAN, example.csv")
         ['SAMSUNG', '2014-13', 'High', 'MEAN', 'example.csv']
     """
-    result = None
+
     # ===Modify codes below=============
+    result = None
 
 
     # ==================================
@@ -214,11 +216,15 @@ def separate_user_query(user_input):
 def main():
     print("Stock Data Crawler Program!!")
     user_input = 999
-    url = 'http://www.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
+    url = 'http://finance.google.com/finance/historical?q=KRX:005930&startdate=2013-01-01&enddate=2015-12-30&output=csv'
     # ===Modify codes below=============
 
 
+
+
+
     # ==================================
+
 
 if __name__=="__main__":
     main()
