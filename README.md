@@ -1,17 +1,19 @@
 K-MOOC: 데이터 과학을 위한 파이썬 입문
 =========================
 
-본 강의는 가천대학교 ACE 사업단의 데이터 과학 시리즈 MOOC의 일환으로 제작됩니다. 본 과정은 아래와 같이 구성됩니다.
-- Introduction to Python Programming - 본과정
-- [Operation Research with Python Programming](https://github.com/TeamLab/Gachon_CS50_OR_KMOOC)
+본 강의는 TEAMLAB 데이터 과학 시리즈 MOOC의 일환으로 제작됩니다. 본 과정은 아래와 같이 구성됩니다.
+- (K-MOOC) 데이터 과학을 위한 파이썬 입문 - 본과정
+- (Inflearn)[데이터 과학을 위한 파이썬 입문](https://www.inflearn.com/course/python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8-%EA%B0%95%EC%A2%8C/) - 동일과정이나 Lab Assignment등 업데이트
+- (Inflearn)[밑바닥부터 시작하는 머신러닝](https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9E%85%EB%AC%B8-%EA%B0%95%EC%A2%8C/)
+- (K-MOOC)[Operation Research with Python Programming](https://github.com/TeamLab/Gachon_CS50_OR_KMOOC)
 
-강의 영상과 자료들은 순차적으로 업데이트 될 예정입니다.
+K-MOOC강의 가천대학교 ACE 사업단의 지원으로, Inflearn 강의는 [WADIZ 펀딩](https://www.wadiz.kr/web/campaign/detailPost/13991)을 통해 제작 되었음을 밝힙니다.
 
 ## 강의 개요
 * 강좌명: Gachon CS50 - 데이터 과학을 위한 파이썬 입문
 * 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of [@TeamLab](https://github.com/TeamLab))
-* Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50) 
-* 강의자료: [Docs.com](https://docs.com/choi-sungchul/7359) 
+* Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50)
+* 강의자료: [Docs.com](https://docs.com/choi-sungchul/7359)
 * Email: teamlab.gachon@gmail.com
 
 ## Teacher Assistnat
