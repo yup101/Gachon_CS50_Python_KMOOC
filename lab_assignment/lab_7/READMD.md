@@ -3,9 +3,6 @@ Lab Assignment #7- Baseball Game (baseball_game)
 Copyright 2017© document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
-수많은 난간. 자그마치 8개의 Lab을 끝내고 여기까지 온 여러분들을 환영합니다. 이 Lab Assignment은 사상최초로 어렵습니다. 놀랍게도 말이죠. 이때까지 어려운 Lab은 사실 존재하지 않았습니다. 단지 조금 시간이 오래 걸리거나 약간 복잡하게 느껴졌을 뿐입니다. 어렵게 느껴졌다면 일종의 착각일 것 입니다.
-
-근데 이번엔 어렵습니다. ~~진짜로요~~. 하지만 어려운 만큼 가장 여러분에게 도움이 많이 되는 숙제라고 믿습니다. 참고로 가천대학교 수강생 설문조사에서도 가장 어렵지만 가장 도움이 많이된 숙제로 늘 꼽히고 있습니다. 프로그래밍을 해도 될지 말지 판별하는 숙제라고나 할까요?
 
 본 Baseball Game Lab은 **_간단한_** 숫자 맞추기 게임입니다. 컴퓨터는 3자리의 Random Number를 생성하고 사용자는 숫자를 입력하면, 그 세자리 숫자가 Random Number와 얼마나 비슷한지에 따라 Strike과 Ball로 알려주는 게임입니다. 간단한 규칙은 다음과 같습니다.
 
